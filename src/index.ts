@@ -8,5 +8,7 @@ declare global {
     interface Window {
         openSidebar: Function,
         closeSidebar: Function,
+        saveCanvas: Function,
+        windowResized: Function,
     }
 }
