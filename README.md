@@ -1,15 +1,3 @@
-# 🚀 Welcome to your new awesome project!
+# Base files for projects working with the HTML canvas.
 
-This project has been created using **webpack-cli**, you can now run
-
-```
-npm run build
-```
-
-or
-
-```
-yarn build
-```
-
-to bundle your application
+Project for use as a template for other HTML5 canvas oriented projects using p5.js
