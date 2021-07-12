@@ -1,4 +1,6 @@
 import * as p5 from 'p5';
+import "./style.scss";
+import "./sidebar";
 
 const sketch = (p: p5) => {
 
@@ -26,3 +28,7 @@ const sketch = (p: p5) => {
 
 
 const sketchP = new p5(sketch);
+
+function test(): void {
+  console.log("Workign!");
+}
