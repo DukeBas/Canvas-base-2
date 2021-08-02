@@ -6,6 +6,7 @@ const sketch = (p: p5) => {
 
   p.setup = () => {
     const canvas = p.createCanvas(p.windowWidth, p.windowHeight);
+    p.disableFriendlyErrors = true; // disable friendly errors for increased performance
     console.log("p5 loaded!");
 
     canvas.position(0, 0);  // make canvas start in top-left corner
